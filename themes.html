@@ -1,0 +1,71 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Love</li>
+					<li data-theme="d">Love is perhaps the central theme throughout the novel as the novel tells the story of the romance between two characters, Elizabeth Bennet and Mr. Darcy</li>
+					<li data-theme="c">Their deep love must overcome many obstacles in order to work</li>
+					<li data-theme="d">Early on in the novel Elizabeth's strong personal pride allows her to misjudge Darcy based upon their first meeting and Darcy's strong prejudice towards Elizabeth's social class causes him to misjudge her at first</li>
+					<li data-theme="c">Once the lovers overcome the initial obstacles their love still faces some minor setbacks in the form of the people around them</li>
+					<li data-theme="d">Some of the characters in the novel who are close with Elizabeth and Darcy try to upset the relationship however in the end love prevails</li>
+					<li data-theme="c">Austen suggests that love can prevail over social setbacks</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">A Person's Reputation</li>
+					<li data-theme="d">The society that the novel is set in holds a woman's reputation to the utmost importance</li>
+					<li data-theme="c">Women are expected to dress and act in a certain way, and if they fail to do so their reputation is sure to struggle</li>
+					<li data-theme="d">A prime example is when Elizabeth makes a long journey on foot and meets Miss Bingley with mud on her skirt</li>
+					<li data-theme="c">When this occurs everyone is present is appalled with Elizabeth and her un-lady like actions</li>
+					<li data-theme="d">At some points in the novel it seems Austen is poking fun at the little things that go into keeping a strong reputation for a person</li>
+					<li data-theme="c">It is shown that in order to succeed in the time period of the novel one must work hard to maintain their reputation even though some of the actions take to do so may seem ridiculous</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Social Classes</li>
+					<li data-theme="d">During the time period of the novel it is quite clear just how distinct the social classes are</li>
+					<li data-theme="c">The Bennet family is depicted as being middle class while the Bingley and Darcy families are both upper class</li>
+					<li data-theme="d">The classes are not forbidden to interact, however it is clear by their interactions that the Bennet family is socially inferior</li>
+					<li data-theme="c">This distinction in class is a slight barrier for the love between Darcy and Elizabeth as Elizabeth comes from a lower class and it is therefore slightly frowned upon that Darcy falls for her</li>
+					<li data-theme="d">Austen uses satire and pokes fun at the class differences and prejudices throughout the novel</li>
+					<li data-theme="c">She also suggests that the barriers between classes are not insurmountable and also kind of unnecessary</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Pride And Prejudice</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
